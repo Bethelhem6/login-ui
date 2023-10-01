@@ -25,7 +25,7 @@ class _SplashPageState extends State<SplashPage> {
   }
 
   route() {
-    Get.to(() => LoginPage());
+    Get.off(() => LoginPage());
   }
 
   @override
